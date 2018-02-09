@@ -1,5 +1,12 @@
 {{ partial "header.html" . }}
-<h1>{{ .Title }}</h1>
-<section>{{ .Content }}</section> {{ range .Pages }}
-<h3>{{ .Title}}</h3>
-<div> {{ .Content}} </div> {{ end }}
+<div class="container_list">
+    <h2>{{ .Title}}</h2>
+    <section>
+        <p>{{ .Content }}</p>
+    </section>
+    <div class="liste">
+        <section class="row"> {{ range .Pages }}
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h5><a href="{{ .URL }}">{{ .Title }}</a></h5></div> {{ end }} </section>
+    </div>
+</div> {{ partial "footer.html" . }}

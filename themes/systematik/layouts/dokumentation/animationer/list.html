@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<div class="container_list"> Hello kitty
+    <h2>{{ .Title}}</h2>
+    <section>
+        <p>{{ .Content }}</p>
+    </section>lkjsdflksjflsdkjfaah
+    <div class="liste">
+        <section class="row"> {{ range .Pages }}
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <h5><a href="{{ .URL }}">{{ .Title }}</a></h5></div> {{ end }} </section>
+    </div>
+</div> {{ partial "footer.html" . }}

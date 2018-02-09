@@ -1,3 +1,376 @@
+.container_list {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container1 {
+    max-width: 80vw;
+    margin: auto;
+}
+
 body {
+    background-color: #ffffff;
+    font-weight: 400;
+    line-height: 1.45;
+}
+
+//.nivo-lightbox-notouch img {
+//    width: 15vw;
+//}
+.headeren {
+    font-family: 'Lobster', cursive;
+    margin-top: 8px;
+    margin-top: 8px;
+    height: 65px;
+    background-size: 100%;
+}
+
+.header_text {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin-top: 0;
+    color: white;
+    align-items: center;
+    margin: auto;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("/imgs/donuts.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+html,
+body {
+    font-size: calc(0.75em + 0.8vw);
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    color: #222222;
+    font-size: 0.6em;
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #1c1c1c;
+    font-weight: inherit;
+    line-height: 1.2;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    margin-top: 0;
+    font-size: 4em;
+    color: white;
+}
+
+h2 {
+    font-size: 2.0em;
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    font-size: 1.999em;
+}
+
+h4 {
+    font-size: 1.414em;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2c2ef;
+    text-decoration: underline;
+}
+
+
+/*NAV*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(175, 126, 177, 0.49);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+span {
+    color: black;
+    margin: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.forsidebillede {
+    width: 40%;
+    height: auto;
+}
+
+.forsidecontent {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footer {
+    background-color: #ffd54b;
+    height: 100px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer p {
+    padding-top: 2em;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+
+/* FORMULAR */
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(126, 163, 177);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #679869;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: rgba(229, 229, 229, 0.84);
+    padding: 20px;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#formfailure {
     background-color: red;
+    padding: 1em;
+}
+
+.formcontainer {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+/* LIST:HTML*/
+
+.row {
+    margin-top: 20px;
+}
+
+
+/* DOWNLOAD KNAP */
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 22px;
+    border: 0px solid #9e9e9e;
+    border-radius: 100px;
+    background: #f2c2ef;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2c2ef), to(#f2c2ef));
+    background: -moz-linear-gradient(top, #f2c2ef, #f2c2ef);
+    background: linear-gradient(to bottom, #f2c2ef, #f2c2ef);
+    font: normal normal normal 18px arial;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button:hover,
+.button:focus {
+    border: 0px solid #b6b6b6;
+    background: #ffe9ff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffe9ff), to(#ffe9ff));
+    background: -moz-linear-gradient(top, #ffe9ff, #ffe9ff);
+    background: linear-gradient(to bottom, #ffe9ff, #ffe9ff);
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:active {
+    background: #91748f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#91748f), to(#f2c2ef));
+    background: -moz-linear-gradient(top, #91748f, #f2c2ef);
+    background: linear-gradient(to bottom, #91748f, #f2c2ef);
+}
+
+.button:before {
+    content: "\0000a0";
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABbUlEQVRIieXUsUtcQRDH8Y8XETlSBLEWi6AgKSSVyCFCIIVJGwuVoHaSJoXYikj+CgsLETRBBFOkiFbRRtFSsAs2gqaSVEFMit3T53nm7dNrQr6wsLtvd37zZmaHf52mAmc78Q69uMRPfMLHuH4QI/iCfpTiXhum8TnOC1PGE1SwipY7zvVhPSOcSwnz0eNVHKE9584chlIF3uJDZl1OuNOFhRTjL7Ev3+NaytjDczRnPzzKzN9jEJM4KyjwW6jIAcxgFz+yB54K1ZDHmBDCv9GBb2Joq5kfwlKCQLOaENThGGt4nRV4jPMEgVQOhahcCRzgRQMFevA9K7AptICBBhjvwBtscB3PC4xiERPYiXtVfmEls27FcI3hErqjk1NCr7qRsFO8Ev7kmdvJLNWZ17aHLcxGh+7FuPBOkkltUPVKM69ckwUqWBbiXqVFeDeVRghs42s02BrHkhDv7YT7yYzjJI5CeSjCWBz/EX8AwUE4FtXxzc8AAAAASUVORK5CYII=") no-repeat left center transparent;
+    background-size: 100% 100%;
+}
+
+
+/* DOWNLOAD KNAP KODEVIEW */
+
+pre {
+    background-color: aqua;
+}
+
+.language-html {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin-bottom: 1.2em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+/* LIST VIEW*/
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#bg_list {
+    padding-top: 10px;
+    background-color: rgba(182, 243, 255, 0.37);
+}
+
+
+/* Datavisualisering*/
+
+.diagram_container {
+    margin-top: 20vw;
+    transform: rotate(90deg);
+}
+
+.column_and_name_container p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 1vw;
+}
+
+.column_and_name_container svg {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+
+/*Download*/
+
+.image {
+    width: 100px;
+    position: absolute;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }
