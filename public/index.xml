@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donutsystemet on My New Hugo Site</title>
+    <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/</link>
+    <description>Recent content in Donutsystemet on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>da-dk</language>
+    <lastBuildDate>Thu, 01 Feb 2018 09:01:55 +0100</lastBuildDate>
+    
+	<atom:link href="http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Typografi</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/typografi/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:32 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/typografi/</guid>
+      <description>Jeg har gjort brug af to forskellige typer typografi på sitet.</description>
+    </item>
+    
+    <item>
+      <title>Animationer</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/animationer/animationer/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/animationer/animationer/</guid>
+      <description>Mikroanimation Her er min roterende donut læsdkjflskj
+
+Animation</description>
+    </item>
+    
+    <item>
+      <title>Farver</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/farver/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/farver/</guid>
+      <description>Farver jubbii skriv her</description>
+    </item>
+    
+    <item>
+      <title>Formularer</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/formularer/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/formularer/</guid>
+      <description>Brug af kontaktformularer</description>
+    </item>
+    
+    <item>
+      <title>Knapper</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/knapper/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/knapper/</guid>
+      <description>Brug af knapper på sitet
+Download
+&amp;lt;a class=&amp;quot;button&amp;quot; href=&amp;quot;#&amp;quot;&amp;gt;Download&amp;lt;/a&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Lightbox</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/lightbox/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/lightbox/</guid>
+      <description>Brug af lightbox i form af modalvinduer</description>
+    </item>
+    
+    <item>
+      <title>Normalize</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/normalize/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/normalize/</guid>
+      <description>Nulstiling af CSS på sitet</description>
+    </item>
+    
+    <item>
+      <title>Scaffolding</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/scaffolding/</link>
+      <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/scaffolding/</guid>
+      <description>Her skal der stå noget om flexgrid</description>
+    </item>
+    
+    <item>
+      <title>Om</title>
+      <link>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/om/om/</link>
+      <pubDate>Thu, 01 Feb 2018 08:46:17 +0100</pubDate>
+      
+      <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/om/om/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,5 +1,5 @@
 baseURL = "http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem"
-languageCode = "en-us"
+languageCode = "da-dk"
 title = "My New Hugo Site"
 theme = "systematik"
 

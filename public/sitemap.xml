@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/</loc>
+    <lastmod>2018-02-01T09:01:55+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/typografi/</loc>
+    <lastmod>2018-02-01T08:53:32+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/animationer/animationer/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/farver/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/formularer/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/knapper/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/lightbox/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/normalize/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/scaffolding/</loc>
+    <lastmod>2018-02-01T08:53:19+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/om/om/</loc>
+    <lastmod>2018-02-01T08:46:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/</loc>
+    <lastmod>2018-02-01T08:53:32+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/om/</loc>
+    <lastmod>2018-02-01T08:46:17+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
