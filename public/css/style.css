@@ -2,9 +2,21 @@
   max-width: 80vw;
   margin: auto; }
 
+.bg_farve {
+  width: 100vw;
+  background-color: rgba(241, 194, 240, 0.23); }
+
+.doc_image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; }
+
 .container1 {
   max-width: 80vw;
   margin: auto; }
+
+.alfabet_regel {
+  max-width: 600px; }
 
 body {
   background-color: #ffffff;
@@ -28,7 +40,7 @@ body {
 
 .bg {
   /* The image used */
-  background-image: url("/imgs/donuts.jpg");
+  background-image: url("http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/imgs/donuts.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -56,16 +68,20 @@ h2,
 h3,
 h4 {
   color: #1c1c1c;
-  font-weight: inherit;
-  line-height: 1.2; }
+  font-weight: inherit; }
 
 h1 {
+  margin: -10px;
   font-family: 'Lobster', cursive;
   margin-top: 0;
   font-size: 4em;
   color: white; }
 
+#typografi h1 {
+  color: #1c1c1c; }
+
 h2 {
+  margin: -10px;
   font-size: 2.0em;
   font-family: 'Lobster', cursive; }
 
@@ -75,6 +91,12 @@ h3 {
 h4 {
   font-size: 1.414em; }
 
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-top: -10px;
+  margin-bottom: 40px; }
+
 a {
   color: #222222;
   text-decoration: none; }
@@ -82,6 +104,9 @@ a {
 a:hover {
   color: #f2c2ef;
   text-decoration: underline; }
+
+img:hover {
+  opacity: 0.8; }
 
 /*NAV*/
 .sidenav {
@@ -196,7 +221,8 @@ input[type=submit]:hover {
 /*# sourceMappingURL=style.css.map */
 /* LIST:HTML*/
 .row {
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-align: center; }
 
 /* DOWNLOAD KNAP */
 .button {
@@ -297,5 +323,9 @@ pre {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+/*Farver*/
+.image_farver {
+  max-width: 700px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

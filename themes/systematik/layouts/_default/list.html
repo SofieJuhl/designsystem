@@ -1,12 +1,29 @@
 {{ partial "header.html" . }}
-<div class="container_list">
-    <h2>{{ .Title}}</h2>
-    <section>
-        <p>{{ .Content }}</p>
-    </section>
-    <div class="liste">
-        <section class="row"> {{ range .Pages }}
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <h5><a href="{{ .URL }}">{{ .Title }}</a></h5></div> {{ end }} </section>
+<div class="bg_farve">
+
+    <div class="container_list">
+
+        <h2>{{ .Title}}</h2>
+        <section>
+            <p>{{ .Content }}</p>
+        </section>
+        <div class="liste">
+            <section class="row"> {{ range .Pages }}
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="{{ .URL }}"><img class="doc_image" src="{{ .Params.caseimage}}" alt="donut"></a>
+                    <h5><a href="{{ .URL }}">{{ .Title }}</a></h5></div> {{ end }} </section>
+        </div>
     </div>
 </div> {{ partial "footer.html" . }}
+
+<!--
+
+
+        <div class="liste">
+            <section class="row"> {{ range .Pages }}
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <a href="{{ .URL }}"><img class="doc_image" src="http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/imgs/donut_1.jpg" alt="donut"></a>
+                    <h5><a href="{{ .URL }}">{{ .Title }}</a></h5></div> {{ end }} </section>
+        </div>-->

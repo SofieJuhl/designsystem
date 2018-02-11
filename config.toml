@@ -18,9 +18,11 @@ theme = "systematik"
     url = "/dokumentation"
 
 [[menu.main]]
-    name = "Om"
-    title = "om section"
+    name = "Kontakt"
+    title = "Kontakt"
     weight = 3
     identifier = "om"
     url = "/om"
+
+
 

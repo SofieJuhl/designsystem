@@ -17,7 +17,8 @@
       <pubDate>Thu, 01 Feb 2018 08:53:32 +0100</pubDate>
       
       <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/typografi/</guid>
-      <description>Jeg har gjort brug af to forskellige typer typografi på sitet.</description>
+      <description>Jeg har gjort brug af to forskellige typer typografi på sitet en display skrift til overskrifter og en simpel grotesque sans-serif skrifttype til brødteskten. Overskrift1 Lobster, cursive
+Overskrift2 Lobster, cursive Brødtekst, Lato, sans-serif Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
     </item>
     
     <item>
@@ -26,9 +27,9 @@
       <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
       
       <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/animationer/animationer/</guid>
-      <description>Mikroanimation Her er min roterende donut læsdkjflskj
+      <description>Mikroanimation Som mikroanimation er der lavet et loading ikon. Loading ikonet er lavet som et billede der roterer og det er derfor nemt at udskrifte billedet hvis der måtte være behøv for nettop dette.
 
-Animation</description>
+Animation </description>
     </item>
     
     <item>
@@ -37,7 +38,7 @@ Animation</description>
       <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
       
       <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/farver/</guid>
-      <description>Farver jubbii skriv her</description>
+      <description>Farvepaletten er bestående er klare, rene og glade farver. Farvepaletten bygger på nedenstående 3 farver, hendholdvis lyserød, lyseblå og gul - disse farver er alle mulige at nedtone med hvid så det passer til konteksten. Udover de 3 klare farver er der valgt en kridhvid til baggrund og en mat sort til tekst.</description>
     </item>
     
     <item>
@@ -75,7 +76,8 @@ Download
       <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
       
       <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/normalize/</guid>
-      <description>Nulstiling af CSS på sitet</description>
+      <description>På sitet nustilles css ved hjælp af Normalize css
+Download Normalize CSS   </description>
     </item>
     
     <item>
@@ -84,7 +86,8 @@ Download
       <pubDate>Thu, 01 Feb 2018 08:53:19 +0100</pubDate>
       
       <guid>http://sofiejuhl.dk/KEA/3semester/Hugo_designsystem/dokumentation/scaffolding/</guid>
-      <description>Her skal der stå noget om flexgrid</description>
+      <description>Her skal der stå noget om flexgrid
+Download Flexboxgrid  </description>
     </item>
     
     <item>
